@@ -1,2 +1,3 @@
 bootstrap_subtheme
+Hi
 ==================
