@@ -1,3 +1,2 @@
 bootstrap_subtheme
-Hi
 ==================
