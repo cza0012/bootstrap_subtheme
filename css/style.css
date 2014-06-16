@@ -11,3 +11,24 @@
     margin: 40px 0 20px;
     border-bottom: 1px solid #eee;
 }
+
+/**
+* A comment in an article
+*/
+.comment {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.comment > .user-picture > a{
+    float: left;
+    margin-right: 10px;
+}
+
+.comment > h3{
+    margin: 0 0 10px;
+}
+
+.comment > .submitted{
+    margin: 0 0 55px;
+}
