@@ -18,17 +18,40 @@
 .comment {
     overflow: hidden;
     zoom: 1;
+    padding-bottom: 9px;
+    margin: 20px 0 20px;
+    border-bottom: 1px solid #eee;
 }
 
-.comment > .user-picture > a{
+.comment > .user-picture > a {
     float: left;
     margin-right: 10px;
 }
 
-.comment > h3{
+.comment > h3 {
     margin: 0 0 10px;
 }
 
-.comment > .submitted{
+.comment > .submitted {
     margin: 0 0 55px;
+}
+
+.field-name-comment-body p {
+    margin: 0 0 10px;
+}
+
+.content .rate-widget{
+    position: relative;
+    min-height: 1px;
+    float: left;
+    padding-right: 10px;
+    width: 8.33333333%;
+}
+
+.comment .field-name-comment-body {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    float: left;
+    width: 91.66666667%;
 }
