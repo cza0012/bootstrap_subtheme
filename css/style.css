@@ -55,3 +55,34 @@
     float: left;
     width: 91.66666667%;
 }
+
+.content > .form-type-item > label {
+    display: none;
+}
+
+.node-article > .user-picture{
+    float: left;
+    margin-right: 10px;
+}
+
+.node-article > .content .rate-widget {
+    /*margin-left: -10px;
+    width: 83.33333333%;
+    margin-left: 16.66666667%;*/
+}
+
+.node-article .field-name-body {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+
+.field-name-field-tags .field-item {
+    display: inline;
+    padding-right: 5px;
+}
