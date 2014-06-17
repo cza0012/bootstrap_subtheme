@@ -40,7 +40,7 @@
     margin: 0 0 10px;
 }
 
-.content .rate-widget{
+.content .rate-widget {
     position: relative;
     min-height: 1px;
     float: left;
@@ -60,7 +60,11 @@
     display: none;
 }
 
-.node-article > .user-picture{
+.node-article .content {
+    min-height: 40px;
+}
+
+.node-article > .user-picture {
     float: left;
     margin-right: 10px;
 }
@@ -80,4 +84,27 @@
     overflow: hidden;
     display: inline;
     padding-right: 5px;
+}
+
+.view-members .views-exposed-widgets {
+    margin-bottom: 10px;
+}
+
+.view-members .view-content td{
+    vertical-align: top;
+}
+
+.node-article .field-name-field-tags .field-item {
+    border: 1px solid #2a6496;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    margin-right: 3px;
 }
