@@ -94,8 +94,12 @@
     vertical-align: top;
 }
 
+.node-article .field-name-field-tags {
+    padding-top: 3px;
+}
+
 .node-article .field-name-field-tags .field-item {
-    border: 1px solid #2a6496;
+    border: 1px solid #428bca;
     display: inline;
     padding: .2em .6em .3em;
     font-size: 75%;
