@@ -57,7 +57,11 @@
 }
 
 .comment .field-name-comment-body {
-    min-height: 64px;
+    min-height: 54px;
+}
+
+.comment .links {
+    padding-top: 20px;
 }
 
 .content > .form-type-item > label {
