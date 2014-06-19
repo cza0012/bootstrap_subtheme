@@ -137,3 +137,9 @@
     background-color: #5cb85c;
     float: left;
 }
+
+#comments .indented {
+    border-left: 2px solid #e1e1e8;
+    padding-left: 5px;
+    padding-right: 6px;
+}
