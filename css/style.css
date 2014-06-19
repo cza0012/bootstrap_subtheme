@@ -139,7 +139,12 @@
 }
 
 #comments .indented {
-    border-left: 2px solid #e1e1e8;
+    border-left: 3px solid #e1e1e8;
     padding-left: 5px;
-    padding-right: 6px;
+    padding-right: 5px;
+}
+
+.node-article .content .field-name-field-file {
+    float: left;
+    width: 100%;
 }
