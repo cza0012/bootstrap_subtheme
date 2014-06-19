@@ -56,6 +56,10 @@
     width: 91.66666667%;
 }
 
+.comment .field-name-comment-body {
+    min-height: 64px;
+}
+
 .content > .form-type-item > label {
     display: none;
 }
