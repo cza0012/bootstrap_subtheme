@@ -98,10 +98,11 @@
     margin-bottom: 10px;
 }
 
-.view-members .view-content td{
+.view-members .view-content td {
     vertical-align: top;
 }
 
+.view-members .view
 .node-article .field-name-field-tags {
     padding-top: 3px;
 }
@@ -147,4 +148,20 @@
 .node-article .content .field-name-field-file {
     float: left;
     width: 100%;
+}
+
+@media (max-width: 767px) {
+
+    .user-full .pane-a-user-s-articles .panel-col-first {
+        width: 50%;
+    }
+
+    .user-full .pane-a-user-s-articles .panel-col {
+        width: 50%;
+    }
+
+    .user-full .pane-a-user-s-articles .panel-col-last {
+        visibility: hidden;
+        width: 0%;
+    }
 }
