@@ -72,7 +72,12 @@
     min-height: 40px;
 }
 
-/*The exhibits page*/
+ul.list-inline {
+    float: left;
+    width: 100%;
+}
+
+/*The exhibit node page*/
 .node-article > .user-picture {
     float: left;
     margin-right: 10px;
@@ -82,10 +87,8 @@
     float: left;
     position: relative;
     min-height: 1px;
-    padding-right: 15px;
-    margin-top: -18px;
+    margin-top: 10px;
     margin-bottom: 10px;
-    float: left;
     width: 100%;
 }
 
@@ -95,7 +98,18 @@
     padding-right: 5px;
 }
 
-.view-exhibits .panel-col-last .field-item a > img {
+/*The teaser of an article*/
+.node-teaser .panel-col .field-name-body {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    margin-top: -18px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.panel-col-last .field-item a > img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -112,13 +126,6 @@
 .view-members .view
 .node-article .field-name-field-tags {
     padding-top: 3px;
-}
-
-/*The resource page*/
-.view-resources .panel-col-last .field-item a > img {
-    display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 .node-article .field-name-field-tags .field-item {
@@ -159,8 +166,6 @@
     padding-right: 5px;
 }
 
-
-
 .node-article .content .field-name-field-file {
     float: left;
     width: 100%;
@@ -179,11 +184,29 @@
         visibility: hidden;
         width: 0%;
     }
+
+    .panel-col-first .user-picture a > img {
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
+
+    .comment .user-picture a > img {
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
+
+    .node-article > .user-picture a > img {
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
 }
 
 @media (min-width: 992px) {
 
-     /*The exhibits page*/
+    /*The exhibits page*/
     .view-exhibits .panel-col-first {
         width: 18%;
     }
@@ -208,7 +231,5 @@
     .view-resources .panel-col-last {
         width: 28%;
     }
-
-
 
 }
