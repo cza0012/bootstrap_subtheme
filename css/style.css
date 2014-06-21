@@ -78,6 +78,11 @@ ul.list-inline {
 }
 
 /*The exhibit node page*/
+.center-wrapper .panel-col-first {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
 .node-article > .user-picture {
     float: left;
     margin-right: 10px;
@@ -172,25 +177,21 @@ ul.list-inline {
 }
 
 @media (max-width: 767px) {
-    /*The two columns about exhibits and comments in the my account*/
-    .user-full .center-wrapper .panel-col-first{
+
+    .center-wrapper .panel-col-first {
         width: 100%;
     }
 
-    .user-full .center-wrapper .panel-col-last{
-        width: 100%;
-    }
-    /*The three columns of an exhibit in the my account*/
-    .user-full .pane-a-user-s-articles .panel-col-first {
+    .center-wrapper .panel-col {
         width: 100%;
     }
 
-    .user-full .pane-a-user-s-articles .panel-col {
+    .center-wrapper .panel-col-last {
         width: 100%;
     }
 
-    .user-full .pane-a-user-s-articles .panel-col-last {
-        width: 100%;
+    .center-wrapper .panel-col-first h4 {
+        margin-top: 0px;
     }
 
     .panel-col-first .user-picture a > img {
