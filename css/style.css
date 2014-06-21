@@ -151,7 +151,6 @@
 }
 
 @media (max-width: 767px) {
-
     .user-full .pane-a-user-s-articles .panel-col-first {
         width: 50%;
     }
@@ -164,4 +163,45 @@
         visibility: hidden;
         width: 0%;
     }
+}
+
+@media (min-width: 992px) {
+
+     /*The Exhibits page*/
+    .view-exhibits .panel-col-first {
+        width: 18%;
+    }
+
+    .view-exhibits .panel-col {
+        width: 54%;
+    }
+
+    .view-exhibits .panel-col-last {
+        width: 28%;
+    }
+
+    .view-exhibits .panel-col-last .field-item a > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    /*The Resources page*/
+    .view-resources .panel-col-first {
+        width: 18%;
+    }
+
+    .view-resources .panel-col {
+        width: 54%;
+    }
+
+    .view-resources .panel-col-last {
+        width: 28%;
+    }
+
+    .view-resources .panel-col-last .field-item a > img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
 }
