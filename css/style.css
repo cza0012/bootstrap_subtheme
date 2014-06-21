@@ -172,17 +172,25 @@ ul.list-inline {
 }
 
 @media (max-width: 767px) {
+    /*The two columns about exhibits and comments in the my account*/
+    .user-full .center-wrapper .panel-col-first{
+        width: 100%;
+    }
+
+    .user-full .center-wrapper .panel-col-last{
+        width: 100%;
+    }
+    /*The three columns of an exhibit in the my account*/
     .user-full .pane-a-user-s-articles .panel-col-first {
-        width: 50%;
+        width: 100%;
     }
 
     .user-full .pane-a-user-s-articles .panel-col {
-        width: 50%;
+        width: 100%;
     }
 
     .user-full .pane-a-user-s-articles .panel-col-last {
-        visibility: hidden;
-        width: 0%;
+        width: 100%;
     }
 
     .panel-col-first .user-picture a > img {
@@ -201,6 +209,14 @@ ul.list-inline {
         display: block;
         width: 34px;
         height: 34px;
+    }
+
+    .comment .content .rate-widget {
+        width: 21%;
+    }
+
+    .comment .field-name-comment-body {
+        width: 79%;
     }
 }
 
