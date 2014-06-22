@@ -137,3 +137,15 @@
     background-color: #5cb85c;
     float: left;
 }
+
+
+ .navbar-collapse.collapse {
+    margin-bottom:198px;
+
+}
+.container {
+    background-color: #102845;
+}
+.main-container.container {
+    background-color: #FFFFFF;
+}
