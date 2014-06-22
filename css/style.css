@@ -4,6 +4,15 @@
  */
 
 /**
+* Ana's code
+*/
+.navbar-collapse.collapse {
+    background-color: #102845;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/**
 * Top's code
 */
 
@@ -233,12 +242,6 @@ ul.list-inline {
         width: 34px;
         height: 34px;
     }
-
-.navbar-collapse.collapse {
-    background-color: #102845;
-    margin-left: -15px;
-    margin-right: -15px;
-}
 
 @media (min-width: 992px) {
 
