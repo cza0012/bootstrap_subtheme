@@ -86,6 +86,7 @@ li.statistics_counter span {
     min-height: 1px;
     float: left;
     padding-right: 10px;
+    min-width: 90px;
     width: 8.33333333%;
 }
 
@@ -144,6 +145,7 @@ ul.list-inline {
 /*The teaser of an article*/
 .node-teaser .center-wrapper .panel-col-first {
     margin-left: -13px;
+    margin-top: -17px;
 }
 
 .node-teaser .panel-col .field-name-body {
@@ -259,58 +261,63 @@ ul.list-inline {
         height: 34px;
     }
 
-    @media (min-width: 992px) {
+    .node-article > .content .rate-widget {
+        width: 90px;
+    }
+}
 
-        /*The exhibits page*/
-        .view-exhibits .panel-col-first {
-            width: 18%;
-        }
+@media (min-width: 992px) {
 
-        .view-exhibits .panel-col {
-            width: 54%;
-        }
-
-        .view-exhibits .panel-col-last {
-            width: 28%;
-        }
-
-        /*The resources page*/
-        .view-resources .panel-col-first {
-            width: 18%;
-        }
-
-        .view-resources .panel-col {
-            width: 54%;
-        }
-
-        .view-resources .panel-col-last {
-            width: 28%;
-        }
-
+    /*The exhibits page*/
+    .view-exhibits .panel-col-first {
+        width: 18%;
     }
 
-    @media (min-width: 768px) {
-        /*The teaser of an article*/
-        .view-a-user-s-articles .panel-col-first {
-            width: 100%;
-            margin-bottom: 10px;
-        }
-
-        .view-a-user-s-articles .panel-col {
-            width: 100%;
-        }
-
-        .view-a-user-s-articles .panel-col-last {
-            width: 100%;
-            padding-right: 8px;
-        }
-
-        .view-a-user-s-articles .panel-col-first .user-pic {
-            width: 21%;
-            min-width: 102px;
-        }
-
-        .view-a-user-s-articles .panel-col-first .user-info {
-            width: 69%;
-        }
+    .view-exhibits .panel-col {
+        width: 54%;
     }
+
+    .view-exhibits .panel-col-last {
+        width: 28%;
+    }
+
+    /*The resources page*/
+    .view-resources .panel-col-first {
+        width: 18%;
+    }
+
+    .view-resources .panel-col {
+        width: 54%;
+    }
+
+    .view-resources .panel-col-last {
+        width: 28%;
+    }
+
+}
+
+@media (min-width: 768px) {
+    /*The teaser of an article*/
+    .view-a-user-s-articles .panel-col-first {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .view-a-user-s-articles .panel-col {
+        width: 100%;
+    }
+
+    .view-a-user-s-articles .panel-col-last {
+        width: 100%;
+        padding-right: 8px;
+    }
+
+    .view-a-user-s-articles .panel-col-first .user-pic {
+        width: 21%;
+        min-width: 102px;
+    }
+
+    .view-a-user-s-articles .panel-col-first .user-info {
+        width: 69%;
+    }
+}
