@@ -345,6 +345,11 @@ ul.list-inline {
     .footer {
         border-radius: 4px;
     }
+
+    #block-search-form {
+        float: left;
+        width: 20%;
+    }
 }
 
 .footer {
@@ -357,3 +362,4 @@ ul.list-inline {
     height:70px;
     
 }
+
