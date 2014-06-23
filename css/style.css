@@ -44,13 +44,6 @@
     background-color: #ffffff;
 }
 
-.footer a {
-    color: #ffffff;
-}
-
-.footer a:hover, .footer a:focus {
-    color: #0066FF;
-}
 /**
 * Top's code
 */
@@ -363,11 +356,20 @@ ul.list-inline {
 .footer {
     background-color: #102845;
     border-color: #001431;
+    color: #ffffff;
 }
 
 #navbar .logo img {
     width: 250px;
     height:70px;
-    
 }
 
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer a:hover, .footer a:focus {
+    color: #0066FF;
+    text-decoration: underline;
+}
