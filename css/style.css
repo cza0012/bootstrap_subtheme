@@ -28,6 +28,21 @@
     color: #0066FF;
 }
 
+.nav-tabs{
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #0066FF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
 /**
 * Top's code
 */
@@ -86,8 +101,11 @@ li.statistics_counter span {
     min-height: 1px;
     float: left;
     padding-right: 10px;
-    min-width: 90px;
     width: 8.33333333%;
+}
+
+.node-article > .content .rate-widget {
+    width: 90px;
 }
 
 .comment .field-name-comment-body {
@@ -249,21 +267,31 @@ ul.list-inline {
         height: 34px;
     }
 
-    .comment .user-picture a > img {
-        display: block;
-        width: 34px;
-        height: 34px;
-    }
-
     .node-article > .user-picture a > img {
         display: block;
         width: 34px;
         height: 34px;
     }
 
-    .node-article > .content .rate-widget {
-        width: 90px;
+    .comment .user-picture a > img {
+        display: block;
+        width: 34px;
+        height: 34px;
     }
+
+    .comment .content .rate-widget {
+        width: 16.66666667%;
+    }
+
+    .comment .field-name-comment-body {
+        width: 83.33333333%;
+    }
+
+    .comment .submitted {
+        margin-bottom: 13px;
+    }
+
+
 }
 
 @media (min-width: 992px) {
