@@ -4,8 +4,64 @@
  */
 
 /**
+* Ana's code
+*/
+.navbar-default {
+    background-color: #102845;
+    border-color: #001431;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #0066FF;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #0066FF;
+}
+
+.nav-tabs {
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #0066FF;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+/**
 * Top's code
 */
+li.statistics_counter span {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #999;
+    border-radius: 10px;
+}
+
 #comments > .title {
     padding-bottom: 9px;
     margin: 40px 0 20px;
@@ -72,6 +128,12 @@
     min-height: 40px;
 }
 
+ul.list-inline {
+    float: left;
+    width: 100%;
+}
+
+/*The exhibit node page*/
 .node-article > .user-picture {
     float: left;
     margin-right: 10px;
@@ -94,11 +156,33 @@
     padding-right: 5px;
 }
 
+/*The teaser of an article*/
+.node-teaser .center-wrapper .panel-col-first {
+    margin-left: -13px;
+    margin-top: -17px;
+}
+
+.node-teaser .panel-col .field-name-body {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 3px;
+    margin-top: -18px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.panel-col-last .field-item a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .view-members .views-exposed-widgets {
     margin-bottom: 10px;
 }
 
-.view-members .view-content td{
+.view-members .view-content td {
     vertical-align: top;
 }
 
@@ -138,15 +222,132 @@
     float: left;
 }
 
-
-.navbar-collapse.collapse {
-    background-color: #102845;
-    margin-left: -15px;
-    margin-right: -15px;
+#comments .indented {
+    border-left: 3px solid #e1e1e8;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
+.node-article .content .field-name-field-file {
+    float: left;
+    width: 100%;
+}
 
- .navbar-btn img {
+@media (max-width: 767px) {
+
+    .center-wrapper .panel-col-first {
+        width: 100%;
+    }
+
+    .center-wrapper .panel-col {
+        width: 100%;
+    }
+
+    .center-wrapper .panel-col-last {
+        width: 100%;
+        padding-right: 8px;
+    }
+
+    .center-wrapper .panel-col-first .inside {
+        margin-right: 0px;
+    }
+
+    .center-wrapper .panel-col-first h4 {
+        margin-top: 0px;
+    }
+
+    .panel-col-first .user-picture a > img {
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
+
+    .node-article > .user-picture a > img {
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
+
+    .comment .user-picture a > img {
+        display: block;
+        width: 34px;
+        height: 34px;
+    }
+
+    .comment .content .rate-widget {
+        width: 16.66666667%;
+    }
+
+    .comment .field-name-comment-body {
+        width: 83.33333333%;
+    }
+
+    .comment .submitted {
+        margin-bottom: 13px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    /*The exhibits page*/
+    .view-exhibits .panel-col-first {
+        width: 18%;
+    }
+
+    .view-exhibits .panel-col {
+        width: 54%;
+    }
+
+    .view-exhibits .panel-col-last {
+        width: 28%;
+    }
+
+    /*The resources page*/
+    .view-resources .panel-col-first {
+        width: 18%;
+    }
+
+    .view-resources .panel-col {
+        width: 54%;
+    }
+
+    .view-resources .panel-col-last {
+        width: 28%;
+    }
+}
+
+@media (min-width: 768px) {
+    /*The teaser of an article*/
+    .view-a-user-s-articles .panel-col-first {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .view-a-user-s-articles .panel-col {
+        width: 100%;
+    }
+
+    .view-a-user-s-articles .panel-col-last {
+        width: 100%;
+        padding-right: 8px;
+    }
+
+    .view-a-user-s-articles .panel-col-first .user-pic {
+        width: 21%;
+        min-width: 102px;
+    }
+
+    .view-a-user-s-articles .panel-col-first .user-info {
+        width: 69%;
+    }
+
+    .footer {
+        border-radius: 4px;
+    }
+}
+
+#navbar .logo img {
     width: 250px;
     height:70px;
     
