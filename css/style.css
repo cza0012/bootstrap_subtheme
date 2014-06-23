@@ -352,6 +352,11 @@ ul.list-inline {
     }
 }
 
+.footer {
+    background-color: #102845;
+    border-color: #001431;
+}
+
 #navbar .logo img {
     width: 250px;
     height: 70px;
