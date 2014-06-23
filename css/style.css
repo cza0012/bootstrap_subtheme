@@ -28,7 +28,7 @@
     color: #0066FF;
 }
 
-.nav-tabs{
+.nav-tabs {
     border-color: #ffffff;
 }
 
@@ -43,6 +43,7 @@
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
 }
+
 /**
 * Top's code
 */
@@ -291,7 +292,6 @@ ul.list-inline {
         margin-bottom: 13px;
     }
 
-
 }
 
 @media (min-width: 992px) {
@@ -352,11 +352,11 @@ ul.list-inline {
 
 .footer {
     background-color: #102845;
-    
+
 }
 
 #navbar .logo img {
     width: 250px;
-    height:70px;
-    
+    height: 70px;
+
 }
