@@ -44,6 +44,13 @@
     background-color: #ffffff;
 }
 
+.footer a {
+    color: #ffffff;
+}
+
+.footer a:hover, .footer a:focus {
+    color: #0066FF;
+}
 /**
 * Top's code
 */
@@ -315,6 +322,12 @@ ul.list-inline {
     .view-resources .panel-col-last {
         width: 28%;
     }
+    
+    #block-search-form {
+        float: left;
+        width: 20%;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -344,11 +357,6 @@ ul.list-inline {
 
     .footer {
         border-radius: 4px;
-    }
-
-    #block-search-form {
-        float: left;
-        width: 20%;
     }
 }
 
